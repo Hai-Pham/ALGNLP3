@@ -1,0 +1,123 @@
+F1 decaying 60
+Extracting features and converting...
+Extracting features takes 190 seconds
+Conversion of features is done. Size of label indexer now is : 1996775
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 3548.819155
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 2125.470759
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1927.756480
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1818.515445
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1750.329315
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1708.338190
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1675.418188
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1646.403380
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1623.056342
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1601.888024
+[AdaGradMinimizer.minimize] Epoch 10 ended with value 1588.147874
+[AdaGradMinimizer.minimize] Epoch 11 ended with value 1576.301040
+[AdaGradMinimizer.minimize] Epoch 12 ended with value 1562.075799
+[AdaGradMinimizer.minimize] Epoch 13 ended with value 1556.175370
+[AdaGradMinimizer.minimize] Epoch 14 ended with value 1542.959948
+[AdaGradMinimizer.minimize] Epoch 15 ended with value 1536.753387
+[AdaGradMinimizer.minimize] Epoch 16 ended with value 1527.393270
+[AdaGradMinimizer.minimize] Epoch 17 ended with value 1518.682669
+[AdaGradMinimizer.minimize] Epoch 18 ended with value 1517.176908
+[AdaGradMinimizer.minimize] Epoch 19 ended with value 1508.113559
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 1873.103512
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 1675.020861
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1584.642738
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1533.125285
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1496.773908
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1471.166495
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1450.533838
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1433.492825
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1420.170806
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1407.869872
+[AdaGradMinimizer.minimize] Epoch 10 ended with value 1397.907142
+[AdaGradMinimizer.minimize] Epoch 11 ended with value 1389.650517
+[AdaGradMinimizer.minimize] Epoch 12 ended with value 1381.821426
+[AdaGradMinimizer.minimize] Epoch 13 ended with value 1375.809827
+[AdaGradMinimizer.minimize] Epoch 14 ended with value 1369.242719
+[AdaGradMinimizer.minimize] Epoch 15 ended with value 1364.283333
+[AdaGradMinimizer.minimize] Epoch 16 ended with value 1359.504347
+[AdaGradMinimizer.minimize] Epoch 17 ended with value 1354.534221
+[AdaGradMinimizer.minimize] Epoch 18 ended with value 1351.604712
+[AdaGradMinimizer.minimize] Epoch 19 ended with value 1347.095820
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 1425.549863
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 1417.592841
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1408.595054
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1402.376921
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1397.844611
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1394.346060
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1391.529926
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1389.054925
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1386.835953
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1384.907165
+[AdaGradMinimizer.minimize] Epoch 10 ended with value 1383.131703
+[AdaGradMinimizer.minimize] Epoch 11 ended with value 1381.516782
+[AdaGradMinimizer.minimize] Epoch 12 ended with value 1380.007217
+[AdaGradMinimizer.minimize] Epoch 13 ended with value 1378.651765
+[AdaGradMinimizer.minimize] Epoch 14 ended with value 1377.336672
+[AdaGradMinimizer.minimize] Epoch 15 ended with value 1376.116231
+[AdaGradMinimizer.minimize] Epoch 16 ended with value 1374.953891
+[AdaGradMinimizer.minimize] Epoch 17 ended with value 1373.840584
+[AdaGradMinimizer.minimize] Epoch 18 ended with value 1372.847245
+[AdaGradMinimizer.minimize] Epoch 19 ended with value 1371.792978
+Training takes 1463 seconds
+Training took 1654089 millis
+1-best baseline
+ [Average]  P: 84.6 R: 83.65 F1: 84.12 EX: 22.94
+Decoding took 84 millis
+Your system
+ [Average]  P: 86.56 R: 85.84 F1: 86.2 EX: 30.03
+Decoding took 7034 millis
+
+
+-------------
+if 30 epochs
+Extracting features takes 179 seconds
+Conversion of features is done. Size of label indexer now is : 1996775
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 3548.819155
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 2125.470759
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1927.756480
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1818.515445
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1750.329315
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1708.338190
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1675.418188
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1646.403380
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1623.056342
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1601.888024
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 1889.231369
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 1690.751486
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1598.948115
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1546.750513
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1510.149909
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1483.499036
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1462.838694
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1445.668037
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1431.243996
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1419.190897
+[AdaGradMinimizer.minimize] Epoch 0 ended with value 1475.217942
+[AdaGradMinimizer.minimize] Epoch 1 ended with value 1466.796160
+[AdaGradMinimizer.minimize] Epoch 2 ended with value 1457.106334
+[AdaGradMinimizer.minimize] Epoch 3 ended with value 1450.237487
+[AdaGradMinimizer.minimize] Epoch 4 ended with value 1444.955969
+[AdaGradMinimizer.minimize] Epoch 5 ended with value 1440.866693
+[AdaGradMinimizer.minimize] Epoch 6 ended with value 1437.690067
+[AdaGradMinimizer.minimize] Epoch 7 ended with value 1434.726519
+[AdaGradMinimizer.minimize] Epoch 8 ended with value 1432.146325
+[AdaGradMinimizer.minimize] Epoch 9 ended with value 1429.771877
+Training takes 740 seconds
+Training took 919610 millis
+1-best baseline
+ [Average]  P: 84.6 R: 83.65 F1: 84.12 EX: 22.94
+Decoding took 77 millis
+Your system
+ [Average]  P: 86.54 R: 85.81 F1: 86.17 EX: 29.91
+
+
+ -----------------
+
+
+
+
+

@@ -13,6 +13,7 @@ public class AwesomeParsingRerankerFactory implements ParsingRerankerFactory {
 
   public ParsingReranker trainParserReranker(Iterable<Pair<KbestList,Tree<String>>>
                                                      kbestListsAndGoldTrees) {
-    return new AwesomeParsingReranker(kbestListsAndGoldTrees);
+//    return new AwesomeParsingRerankerSVM01(kbestListsAndGoldTrees);
+    return new AwesomeParsingRerankerSVMF1(kbestListsAndGoldTrees);
   }
 }

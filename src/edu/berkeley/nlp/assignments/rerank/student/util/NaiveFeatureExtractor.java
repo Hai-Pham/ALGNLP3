@@ -6,6 +6,8 @@ import edu.berkeley.nlp.ling.AnchoredTree;
 import edu.berkeley.nlp.ling.Constituent;
 import edu.berkeley.nlp.ling.Tree;
 import edu.berkeley.nlp.util.Indexer;
+import edu.berkeley.nlp.util.IntCounter;
+import edu.berkeley.nlp.util.Pair;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,7 +16,7 @@ import java.util.List;
 /**
  * @gdurret
  */
-public class NaiveFeatureExtractor {
+public abstract class NaiveFeatureExtractor {
 
     /**
      *
@@ -31,6 +33,9 @@ public class NaiveFeatureExtractor {
      */
     public int[] extractFeatures(KbestList kbestList, int idx, Indexer<String> featureIndexer, boolean addFeaturesToIndexer) {
         Tree<String> tree = kbestList.getKbestTrees().get(idx);
+
+//        double[] scores = kbestList.getScores();
+
         // Converts the tree
         // (see below)
         AnchoredTree<String> anchoredTree = AnchoredTree.fromTree(tree);
@@ -138,4 +143,8 @@ public class NaiveFeatureExtractor {
         }
     }
 
+    public List<Datum> simplyExtractFeatures(Iterable<Pair<KbestList, Tree<String>>> kbestListsAndGoldTrees,
+                                             Indexer<String> labelIndexer) {
+        return null;
+    }
 }

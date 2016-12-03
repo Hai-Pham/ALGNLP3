@@ -10,6 +10,6 @@ import edu.berkeley.nlp.util.Pair;
 public class BasicParsingRerankerFactory implements ParsingRerankerFactory {
 
   public ParsingReranker trainParserReranker(Iterable<Pair<KbestList,Tree<String>>> kbestListsAndGoldTrees) {
-      return new BaselineParsingReranker();
+      return new AwesomeParsingRerankerPerceptron(kbestListsAndGoldTrees);
   }
 }
